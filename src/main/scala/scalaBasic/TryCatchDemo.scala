@@ -1,0 +1,5 @@
+package scalaBasic
+
+object TryCatchDemo {
+
+}
