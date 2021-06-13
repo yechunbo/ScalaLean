@@ -1,3 +1,4 @@
+import javax.xml.crypto.dsig.spec.XSLTTransformParameterSpec;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.regex.PatternSyntaxException;
@@ -38,8 +39,8 @@ public class PhoneFormatCheckUtils {
     }
 
     public static void main(String[] args) {
+        isHKPhoneLegal("8888888");
         // test
-
         System.out.println(isChinaPhoneLegal("13434178880"));
     }
 }
